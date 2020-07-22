@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link type="text/css" rel="stylesheet" href="css/register.css" />
+        <script src="js/register.js"></script>
+	</head>   
+<body>
+	<!-- 	zzzzzzzzzzzzzzz -->
+        <div class="formm">
+        <form action="action_page.php" name="form">
+      <div class="container">
+        <h1>Register</h1>
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+    
+            <!-- email -->
+        <label class="input_text"  for="email"><b>Email</b></label>
+        <input class="inputtext" type="email" placeholder="Enter Email" name="email" id="email" required onchange='checkmail();'>
+            
+            <div id="messagebox-email">
+        <p id="message">email Check</p>
+        </div>
+            
+    <!-- 		username -->
+        <label class="input_text"  for="username"><b>Username (5-20 alphanumeric characters)</b></label>
+        <input class="inputtext" type="text" placeholder="Enter Username" name="Username" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{5,20}$" id="username" required
+                         onchange='checkuser();'>
+            
+            <div id="messagebox-username">
+        <p id="message">user Check</p>
+        </div>
+    
+    <!-- 		password 1 -->
+        <label class="input_text"  for="psw"><b>Password (min 5 letters)</b></label>
+        <input class="inputtext" type="password" id="password" placeholder="Enter Password" name="psw" id="psw" required min="5" 
+                          onchange='checkpass();'>
+            
+            <div id="messagebox-password1">
+        <p id="message">Password1 Check</p>
+        </div>
+    
+            
+    <!-- 		password2 -->
+        <label class="input_text"  for="psw-repeat"><b>Repeat Password</b></label>
+        <input class="inputtext_1" class="pw2" id="confirm_password" type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required
+                         onchange='check();'>
+            
+            <div id="messagebox-password2">
+        <p id="message">Password2 Check</p>
+        </div>
+            
+    
+    <!-- 		number -->
+        <label class="input_text"  for="number"><b>Phone No.</b></label>
+        <input class="number"  pattern="[0-9]" id="number" placeholder="Enter Phone No." name="number" required
+                          onchange='checknum();'>
+            
+            <div id="messagebox-phone">
+        <p id="message">number  Check</p>
+        </div>
+        <hr>
+        
+    
+    
+        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+        <button type="submit" class="registerbtn" >Register</button>
+      </div>
+    
+      <div class="container signin">
+        <p>Already have an account? <a href="#">Sign in</a>.</p>
+      </div>
+    </form>
+        </div>
+        
+        <div class="introduction">
+    <p class="intro3">New Here? Don't worry we got you covered!</p>
+            
+            <p class="intro4">Sign Up here to begin your gaming journey with us. Our expect attested, state-of-the-art products will make sure you get a fabulous gaming experience.</p>
+            
+            <img class="logo" src="https://res.cloudinary.com/dsph4eptm/image/upload/v1594936081/l_ogo_nhgwoa.png">
+        
+            
+            <p class="intro4">Tech-cart's flexible return policy and generous user policy is what makes us a prime hub for gamers</p>
+        
+        
+         <p class="intro5">To know more about our user policy <a href="#">click here</a>.</p>
+    
+        </div>	
+        
+        
+        <div class="footer">
+        
+            <div class="foot_text1"> <p class="Company">Company</p>   
+             <a href="#">About Us </a><a href="#"> 	&nbsp;| </a>
+             <a href="#"> Careers</a><a href="#"> 	&nbsp;| </a>
+             <a href="#"> zVentures</a><a href="#"> 	&nbsp;| </a>
+             <a href="#">	&nbsp;Contact Us</a>
+                    </div>
+    
+        
+        
+         <div class="foot_text2"> <p class="shop">Shop</p>   
+             <a href="#"> Store Locator</a>		<a href="#"> 	&nbsp;| </a>
+    <a href="#">  Partners & Affiliates</a><a href="#"> 	&nbsp;| </a>
+             <a href="#"> Education Program</a><a href="#"> 	&nbsp;| </a>
+             <a href="#">&nbsp; Newsletter Sign Up</a>
+            </div>
+        
+        
+         <div class="foot_text3"> <p class="Tech-cart">Tech-cart</p> 
+             <a href="#">  Copyright © 2020 Tech-cart Inc. All rights reserved.</a>
+          
+             <a href="#">
+    Legal Terms Privacy Policy Cookie Policy</a>
+         </div>	
+        
+        
+        </div>
+        
+    </body>
+</html>   
