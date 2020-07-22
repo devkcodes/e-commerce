@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+body{
+	background-color:black;
+    padding:0px;
+    font-family: 'Share Tech', sans-serif;
+}
+
+.formm{
+	font-family: 'Share Tech', sans-serif;
+background-image:url("https://res.cloudinary.com/dsph4eptm/image/upload/v1594747140/145567_zgunbb.jpg");
+	margin-top:40px;
+	margin-left:50px;
+	padding-top:.1px;
+display:inline-block;
+	background-color:#333333;
+	  box-shadow: 0px 0px 10px 4px #366BCC;
+	border:2px outset black;
+	width:600px;
+	color:white;
+	float:left;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text] {
+  width: 300px;;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: block;
+  border: 2px outset #366BCC;
+  background: white;
+	font-size:20px;	
+}
+
+input[type=email] {
+	border: 2px outset #366BCC;
+  width: 500px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: block;
+  
+  background: #f1f1f1;
+	font-size:20px;	
+}
+.number{
+  width: 300px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: block;
+ border: 2px outset #366BCC;
+  background: #f1f1f1;
+	font-size:20px;	
+}
+
+input[type=password] {
+	border: 2px outset #366BCC;
+  width: 300px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: block;
+
+  background: #f1f1f1;
+	font-size:20px;	
+}
+
+.inputtext_1{
+	margin-bottom:0px;
+}
+
+.pw2{
+	display:inline;
+}
+
+#messagebox-email{
+	display:none;
+	background-color:gray;
+	width:170px;
+	padding-left:5px;
+	text-align:center;
+	margin-bottom:20px;
+}
+
+#messagebox-username{
+	display:none;
+	background-color:gray;
+	width:120px;
+	padding-left:5px;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+#messagebox-password1{
+	display:none;
+	background-color:gray;
+	width:140px;
+	padding-left:5px;
+	text-align:center;
+	margin-bottom:20px;
+}
+
+#messagebox-password2{
+	display:none;
+	background-color:gray;
+	width:150px;
+	margin-bottom:20px;
+	padding-left:5px;
+	text-align:center;
+}
+
+#messagebox-phone{
+	display:none;
+	background-color:gray;
+	width:120px;
+	padding-left:5px;
+	text-align:center;
+}
+
+
+ 
+
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+
+.registerbtn {
+    font-family: 'Share Tech', sans-serif;
+	font-size:30px;
+  background-color:#366BCC;
+  color: white;
+  padding: 16px 10px;
+  margin: 8px 7px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+
+a {
+  color: dodgerblue;
+}
+
+.signin {
+  background-color: #111111;
+  text-align: center;
+}
+
+.introduction{
+	display:inline-block;
+	height:906px;
+/* 	border:2px solid white; */
+	margin-left:90px;
+	margin-top:40px;
+	width:700px;
+
+}
+
+.intro3{
+color:white;
+	margin-top:0px;
+	font-size:70px;
+	text-shadow:2px 0px #366BCC;
+	text-align:center;
+	margin-bottom:80px;
+}
+
+
+.intro4{
+color:white;
+	margin:0px;
+	font-size:35px;
+	text-shadow:10px 10px 50px #366BCC;
+	text-align:center;
+}
+
+.logo{
+	margin-left:200px;
+	margin-top:30px;
+}
+
+.intro5{
+	margin-top:35px;
+	color:white;
+	text-align:center;
+	font-size:20px;
+}
+
+.footer{
+	display:inline-block;
+	width:100%;
+	height:150px;
+	background-color:#222222;
+	padding:10px;
+	margin-top:40px;
+	}
+
+.foot_text1{
+	color:white;
+	font-size:15px;
+	margin-left:80px;
+	margin-right:50px;
+}
+
+.foot_text2{
+	color:white;
+	font-size:15px;
+	margin-left:80px;
+}
+.shop{
+	display:inline-block;
+margin-right:34px;}
+
+.Company{
+	display:inline-block;
+margin-right:10px;}
+
+.Tech-cart{
+	display:inline-block;
+margin-right:4px}
+
+.foot_text3{
+	color:white;
+	font-size:15px;
+	margin-left:80px;
+	margin-right:
+}
+
+.footer a{
+	color:#878787;
+	text-decoration: none;
+	hover:
+}
+
+
+.footer a:hover {
+	text-decoration:underline;}

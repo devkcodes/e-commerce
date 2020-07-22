@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+body{
+	background-color:black;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #111111;
+	height:80px;
+	padding-top:0px;
+
+	
+}
+
+.navbar ol {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+/*           justify-content: center; */
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.5em 0;
+  list-style: none;
+}
+
+
+.navbar a {
+/*   float: left; */
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+	margin-right:60px;
+	margin-top:10px;
+}
+
+.dropdown .dropbtn {
+  font-size: 22px;  
+  border: none;
+  outline: none;
+  color: white;
+/*   padding: 14px 16px; */
+  background-color: inherit;
+  font-family: 'Share Tech', sans-serif;
+  margin-bottom:12px;
+	
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+/*   background-color: #366BCC; */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+ input[type=text] {
+/*   float: right; */width:580px;
+	 margin-left:px;
+  padding: 6px;
+  border: none;
+  margin-top: 0px;
+  margin-right: 0px;
+  font-size: 20px;
+}
+
+button{
+	cursor:pointer;
+	width:80px;
+	height:37px;
+	 font-size: 22px;  
+  border: none;
+  outline: none;
+   padding: 7px 12px;
+	margin-top:0px;
+  background-color: #366BCC;
+  font-family:  'Share Tech', sans-serif;
+	color:black;
+	text-shadow:1px;
+ 
+}
+
+.about{margin-top:0px;
+	margin-right:48px;
+	float:right;
+}
+
+.register{margin-left:75px;
+	margin-right:55px;
+	float:right;
+}
+
+.home{margin-left:28px;
+margin-right:35px;
+	margin-top:10px;
+}
+.logo{
+	cursor:pointer;
+/* 	float:left; */
+	margin:0px;
+	margin-left:20px;
+}
+* {box-sizing: border-box;
+font-family: 'Share Tech', sans-serif;}
+
+.box1{background-image:url("https://res.cloudinary.com/dsph4eptm/image/upload/v1595177934/cool-black-backgrounds_qrtj9g.jpg");
+	
+	width:1510px;
+	border:2px solid white;
+	padding:10px;
+	
+}
+.aboutus{
+
+	width:1490px;
+	border:2px solid white;
+	font-size:35px;
+	padding:0px;
+	text-align:center;}
+
+.desc1{display:inline-block;
+	width:1490px;
+	color:white;
+	font-size:30px;
+	text-align:justify;
+}
+
+h1{text-shadow:2px 0px #366BCC;
+	color:white;
+	margin-top:50px;
+	color:white;
+	font-size:50px;
+}
+
+
+
+/* zzzzzzzzzzzzz */
+
+.box2{
+	color:white;
+	display:inline-block;
+	width:1500px;
+	height:1200px;
+
+	overflow:hidden;
+
+}
+
+.add1{
+	color:black;
+	display:block;
+	height:100px;
+	background-color:white;
+	box-shadow:2px 2px white;
+}
+.img1{
+	cursor:pointer;
+	margin:20px;
+	 box-shadow: 0px 0px 10px 4px #366BCC;
+	border:1px solid black;
+}
+
+.img2{
+	display:inline;
+position:relative;
+margin:20px;
+	margin-top:10px;
+overflow:hidden;
+	width:454px;
+	box-shadow: 0px 0px 10px 4px #366BCC;
+}
+
+.glow-mai{ box-shadow: 0px 0px 10px 4px #366BCC;
+	border:1px solid black;
+display:inline-block;}
+
+
+.glow{
+border:1px solid black;
+display:inline-block;}
+
+
+.footer{
+	display:inline-block;
+	width:100%;
+	height:150px;
+	background-color:#222222;
+	padding:10px;
+	margin-top:40px;
+	}
+
+.foot_text1{
+	color:white;
+	font-size:15px;
+	margin-left:80px;
+	margin-right:50px;
+}
+
+.foot_text2{
+	color:white;
+	font-size:15px;
+	margin-left:80px;
+}
+.shop{
+	display:inline-block;
+margin-right:34px;}
+
+.Company{
+	display:inline-block;
+margin-right:10px;}
+
+.Tech-cart{
+	display:inline-block;
+margin-right:4px}
+
+.foot_text3{
+	color:white;
+	font-size:15px;
+	margin-left:80px;
+	margin-right:
+}
+
+.footer a{
+	color:#878787;
+	text-decoration: none;
+	hover:
+}
+
+
+.footer a:hover {
+	text-decoration:underline;}
+
+
+.cont{
+	color:white;
+	margin-left:100px;
+}
+.para{
+color:white;
+font-size:25px;}
+
+h3{
+	color:white;
+	
+}
